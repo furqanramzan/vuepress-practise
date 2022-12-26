@@ -3,7 +3,7 @@ import { enNavbar } from "./navbar/index.js";
 import { enSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://bitandpixelhub.com",
+  hostname: "https://docs.bitandpixelhub.com",
 
   author: {
     name: "Muhammad Furqan",
