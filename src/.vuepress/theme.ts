@@ -3,18 +3,16 @@ import { enNavbar } from "./navbar/index.js";
 import { enSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://bitandpixelhub.com",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "Muhammad Furqan",
+    url: "https://gitlab.com/furqanramzan",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
-
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "demo/theme-docs/src",
 
@@ -28,19 +26,16 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer:
+        '<a href="https://bitandpixelhub.com" target="_blank">Bit and Pixel Hub</a> | All Rights Reserved, Copyright © 2021-present',
+
+      copyright: false,
 
       displayFooter: true,
 
       metaLocales: {
         editLink: "Edit this page on GitHub",
       },
-    },
-  },
-
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
     },
   },
 
