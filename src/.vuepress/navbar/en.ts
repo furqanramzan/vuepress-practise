@@ -14,12 +14,6 @@ export const enNavbar = navbar([
         prefix: "bar/",
         children: ["baz", { text: "...", icon: "more", link: "" }],
       },
-      {
-        text: "Foo",
-        icon: "config",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "more", link: "" }],
-      },
     ],
   },
   {
