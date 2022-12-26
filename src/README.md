@@ -10,9 +10,6 @@ actions:
     link: /demo/
     type: primary
 
-  - text: Docs
-    link: /guide/
-
 features:
   - title: Markdown Enhance
     icon: markdown
